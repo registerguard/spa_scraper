@@ -43,7 +43,7 @@ if __name__ == '__main__':
             time.sleep(.6)
 
             soup = BeautifulSoup(browser.page_source)
-            
+
             # Get the event title bits
             event_title = soup.find(id='appBarTitle')
             event_title_list = [t for t in event_title.stripped_strings]

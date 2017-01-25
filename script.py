@@ -58,7 +58,7 @@ if __name__ == '__main__':
             total_out = []
             total_out.append(event_title_list)
             total_out.append(q_note_list)
-            
+
             for row in soup.find_all('tr'):
                 # print '----------'
                 row_out = []
@@ -76,7 +76,7 @@ if __name__ == '__main__':
                     # print row_out
                 if row_out:
                     total_out.append(row_out)
-            
+
             pprint (total_out)
     browser.close()
-    # browser.quit()
+    browser.quit()

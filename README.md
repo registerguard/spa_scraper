@@ -16,4 +16,4 @@ A rather bare bones how to makes it work on OS X (10.11.6):
         * Download   [geckodriver](https://github.com/mozilla/geckodriver/releases/tag/v0.13.0)  
         * Unzip `tar.gz` file  
         * `$ mv /location/of/unzipped/geckodriver   /usr/local/bin/` or somewhere else on your `$PATH`  
-    3. `$ python script.py`  
+    5. `$ python script.py`  
